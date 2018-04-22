@@ -1,51 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Calculator</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
-	    <link href="stylesheet.css" rel="stylesheet" />
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<html lang="en">
 
-            ga('create', 'UA-89365106-1', 'auto');
-            ga('send', 'pageview');
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
 
-        </script>
-    </head>
-    <body>
-        <div class="calculator">
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper indigo darken-4">
+        <a href="#" class="brand-logo center">Calculator</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="calculator indigo darken-4 center">
             <div class="top text-center">
-                <h4>Calculator</h4>
-                <input type="textbox" class="textbox" readonly />
+              <h4>Calculator</h4>
+              <input type="textbox" class="textbox" readonly />
             </div>
             <div class="bottom">
-                <button value="AC" class="button">AC</button>
-                <button value="CE" class="button">CE</button>
-                <button value="%" class="button">%</button>
-                <button value="/" class="button">÷</button>
-                <button value="7" class="button">7</button>
-                <button value="8" class="button">8</button>
-                <button value="9" class="button">9</button>
-                <button value="*" class="button">x</button>
-                <button value="4" class="button">4</button>
-                <button value="5" class="button">5</button>
-                <button value="6" class="button">6</button>
-                <button value="-" class="button">-</button>
-                <button value="1" class="button">1</button>
-                <button value="2" class="button">2</button>
-                <button value="3" class="button">3</button>
-                <button value="+" class="button">+</button>
-                <button value="." class="button">.</button>
-                <button value="0" class="button">0</button>
-                <button value="Ans" class="button">Ans</button>
-                <button value="=" class="button">=</button>
+              <button value="AC" class="button">AC</button>
+              <button value="CE" class="button">CE</button>
+              <button value="%" class="button">%</button>
+              <button value="/" class="button">÷</button>
+              <button value="7" class="button">7</button>
+              <button value="8" class="button">8</button>
+              <button value="9" class="button">9</button>
+              <button value="*" class="button">x</button>
+              <button value="4" class="button">4</button>
+              <button value="5" class="button">5</button>
+              <button value="6" class="button">6</button>
+              <button value="-" class="button">-</button>
+              <button value="1" class="button">1</button>
+              <button value="2" class="button">2</button>
+              <button value="3" class="button">3</button>
+              <button value="+" class="button">+</button>
+              <button value="." class="button">.</button>
+              <button value="0" class="button">0</button>
+              <button value="Ans" class="button">Ans</button>
+              <button value="=" class="button">=</button>
             </div>
+          </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <script src="script.js"></script>
-    </body>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer indigo darken-4">
+    <div class="footer-copyright">
+      <div class="container">
+        <p>&copy; 2018 Joseph Davis</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
